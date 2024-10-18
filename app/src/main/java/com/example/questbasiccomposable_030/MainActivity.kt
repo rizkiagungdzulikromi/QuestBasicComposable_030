@@ -64,6 +64,11 @@ fun BasicComposable(modifier: Modifier = Modifier){
             contentDescription = null,
             modifier = Modifier.size(250.dp)
         )
+        Text(text = "Nama", modifier = Modifier,
+            fontSize = 20.sp,
+            color = Color.Black,
+            fontWeight = FontWeight.Bold
+        )
 
 
 @Composable
