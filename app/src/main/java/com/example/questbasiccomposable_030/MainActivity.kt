@@ -51,6 +51,10 @@ fun BasicComposable(modifier: Modifier = Modifier){
         horizontalAlignment = Alignment.CenterHorizontally,
     ){
         Text(text = "LOGIN", modifier = Modifier,
+            fontSize = 70.sp,
+            color = Color.Red,
+
+
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
