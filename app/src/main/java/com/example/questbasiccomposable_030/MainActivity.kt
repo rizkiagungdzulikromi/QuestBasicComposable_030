@@ -49,7 +49,8 @@ fun BasicComposable(modifier: Modifier = Modifier){
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
-
+    ){
+        Text(text = "LOGIN", modifier = Modifier,
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
