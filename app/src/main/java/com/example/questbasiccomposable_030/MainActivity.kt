@@ -58,6 +58,10 @@ fun BasicComposable(modifier: Modifier = Modifier){
         Text(text = "Ini Adalah Halaman Login",
             fontSize = 25.sp,
             color = Color.DarkGray,
+            fontStyle = FontStyle.Italic
+        )
+
+
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
