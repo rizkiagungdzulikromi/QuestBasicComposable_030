@@ -69,9 +69,15 @@ fun BasicComposable(modifier: Modifier = Modifier){
             color = Color.Black,
             fontWeight = FontWeight.Bold
         )
+        Text(text = "Rizki Agung Dzulikromi", modifier = Modifier,
+            fontSize = 15.sp,
+            color = Color.Blue,
+            fontWeight = FontWeight.Bold
+        )
 
 
-@Composable
+
+        @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Hello $name!",
