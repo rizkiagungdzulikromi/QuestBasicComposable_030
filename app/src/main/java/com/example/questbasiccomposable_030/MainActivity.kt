@@ -79,9 +79,16 @@ fun BasicComposable(modifier: Modifier = Modifier){
             color = Color.Black,
             fontWeight = FontWeight.Bold
         )
+        Image(painter = painterResource(id = R.drawable.gue),
+            contentDescription = null,
+            modifier = Modifier.size(250.dp)
+        )
+    }
+}
 
 
-        @Composable
+
+@Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Hello $name!",
