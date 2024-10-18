@@ -45,6 +45,11 @@ class MainActivity : ComponentActivity() {
 @Preview(showBackground = true)
 @Composable
 fun BasicComposable(modifier: Modifier = Modifier){
+    Column(
+        verticalArrangement = Arrangement.Center,
+        modifier = Modifier.fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally,
+
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
