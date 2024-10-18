@@ -55,6 +55,7 @@ fun BasicComposable(modifier: Modifier = Modifier){
             color = Color.Red,
             fontWeight = FontWeight.Bold
         )
+        Text(text = "Ini Adalah Halaman Login"
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
